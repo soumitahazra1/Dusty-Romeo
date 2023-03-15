@@ -1,0 +1,20 @@
+/* vendor css*/
+@import url('./vendor/bootstrap.min.css');
+
+/* globle and font css*/
+@import url('./abstracts/fonts.css');
+@import url('./abstracts/globle.css');
+
+/* reset css*/
+@import url('./base/reset.css');
+
+/* button css*/
+@import url('./components/button.css');
+@import url('./components/progress.css');
+
+/* page css */
+@import url('./pages/landing.css');
+
+/* right to left css */
+
+@import url('./pages/rtl.css');

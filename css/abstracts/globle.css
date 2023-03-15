@@ -1,0 +1,53 @@
+/* generic css */
+
+/* margin */
+.mb-100{
+    margin-bottom: 100px;
+}
+.mt-100 {
+    margin-top: 100px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+
+/* col */
+@media (min-width: 992px){
+    .col-fifth{
+        width: 20%;
+    }
+}
+/* text color */
+.text-primary{
+    color: #f6a059!important;
+}
+
+/* globle css */
+.section-title{
+    font-size: 30px;
+}
+.section-subtitle{
+    font-size: 16px;
+    color: #f6a059;
+    font-weight: 500;
+}
+
+@media (min-width: 992px){
+    .image-hover-affect{
+        -webkit-transform: translate3d(0,0,0);
+        transition: transform 0.3s cubic-bezier(.15,.75,.5,1);
+        transform: scale(1);
+    }
+    .image-hover-affect:hover{
+        transform: scale(1.05);
+    }
+}

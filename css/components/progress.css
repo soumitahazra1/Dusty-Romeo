@@ -1,0 +1,122 @@
+.progress-wrapper{
+  width: 130px;
+  height: 130px;
+  line-height: 130px;
+  background: transparent;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.progress-wrapper>span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.progress-wrapper .progress-bar {
+  width: 100%;
+  height: 100%;
+  border: 5px solid #fa7100;
+  position: absolute;
+  top: 0;
+}
+.progress-wrapper .progress-left {
+  left: 0;
+}
+.progress-wrapper .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+.progress-wrapper .progress-right {
+  right: 0;
+}
+.progress-wrapper .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: loading-1 1.8s linear forwards;
+}
+.progress-wrapper .progress-value {
+  font-size: 36px;
+  color: #fa7100;
+  text-align: center;
+  font-weight: 500;
+}
+.progress-wrapper.shaking .progress-left .progress-bar {
+  animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress-wrapper.barking .progress-left .progress-bar {
+  animation: loading-3 1.5s linear forwards 1.8s;
+}
+.progress-wrapper.behaviour .progress-left .progress-bar {
+  animation: loading-4 1.5s linear forwards 1.8s;
+}
+.progress-wrapper.health .progress-left .progress-bar {
+  animation: loading-5 1.5s linear forwards 1.8s;
+}
+
+@keyframes loading-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes loading-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(94deg);
+    transform: rotate(94deg);
+  }
+}
+
+@keyframes loading-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(48deg);
+    transform: rotate(48deg);
+  }
+}
+
+@keyframes loading-4 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(26deg);
+    transform: rotate(26deg);
+  }
+}
+
+@keyframes loading-5 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(140deg);
+    transform: rotate(140deg);
+  }
+}

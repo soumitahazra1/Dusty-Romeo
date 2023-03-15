@@ -1,0 +1,17 @@
+/* footer */
+.list-unstyled, .navbar-nav{
+   padding-right: 0;
+}
+
+input, textarea { 
+    text-align: left;
+    unicode-bidi:bidi-override; 
+    direction: RTL; 
+}
+@media (max-width: 991px){
+    .navbar .navbar-collapse {
+        right: 0;
+        transform: translate(100%);
+    }
+}
+

@@ -1,0 +1,45 @@
+{
+  "name": "sharyo-front",
+  "version": "1.0.0",
+  "description": "Frontend for customer login",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Soumita Hazra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/soumitahazra/argoadminpanel/issues"
+  },
+  "homepage": "https://bitbucket.org/soumitahazra/argoadminpanel#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "backbone": "^1.4.1",
+    "bcryptjs": "^2.4.3",
+    "connect-session-sequelize": "^7.1.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.3",
+    "express-useragent": "^1.0.15",
+    "generate-password": "^1.7.0",
+    "grapesjs-blocks-avance": "^0.0.32",
+    "grapesjs-blocks-basic": "^1.0.1",
+    "html-pdf": "^3.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mysql-import": "^5.0.26",
+    "mysql2": "^2.3.3",
+    "mysqldump": "^3.2.0",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.19",
+    "process": "^0.11.10",
+    "razorpay": "^2.8.3",
+    "request": "^2.88.2",
+    "sequelize": "^6.21.3"
+  }
+}

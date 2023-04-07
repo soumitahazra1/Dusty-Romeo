@@ -1,5 +1,5 @@
 module.exports = {
-    HOST: "localhost",
+    HOST: "tryloopdb.cmdbwyxtxrrg.me-south-1.rds.amazonaws.com",
     USER: "tryloop",
     PASSWORD: "Tryloop007123",
     DB: "tryloopdb",

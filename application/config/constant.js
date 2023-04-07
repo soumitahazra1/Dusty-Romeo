@@ -1,7 +1,7 @@
 
 const CONSTANTS = {
 
-    "mySqlHost": "localhost",
+    "mySqlHost": "tryloopdb.cmdbwyxtxrrg.me-south-1.rds.amazonaws.com",
     "mySqlUser": "tryloop", 
     "mySqlPassword": "Tryloop007123", 
     "mySqlDbName": "tryloopdb",
